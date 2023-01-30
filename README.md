@@ -1,4 +1,5 @@
 # Star Trek Base Mod Library
+![Logo](https://github.com/ST-AFA/Base_Mod_Library/blob/main/mod/logo.png)
 
 Base Mod Library requiered for all of our Star Trek Cosmoteer Mods.
 
