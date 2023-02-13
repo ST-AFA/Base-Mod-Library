@@ -1,9 +1,9 @@
 ID = "st-afa.001_basemod_library"
 Name = "ST-AFA - BASE LIBRARY"
-Version = 0.1.5
-CompatibleGameVersions = ["0.20.36"]
+Version = 0.1.4
+CompatibleGameVersions = ["0.21.0"]
 ModifiesMultiplayer = true
-Author = "ST-AFA Mod Team"
+Author = "Panem et Circenses"
 Logo = logo.png
 Description = "Adds new STAR TREK stuff to the game \n\n"\
               "<red>WARNING: This mod is a WIP and a development mod. Some things might be unbalanced or broken!\n THIS MOD IS REQUIRED FOR ALL MY STAR TREK MODS</red> \n\n"\
@@ -81,15 +81,6 @@ Actions
         {
             Category = "readyroom"
             Max = 1
-        }
-    }
-	{
-        Action = Add
-        AddTo = "<ships/terran/terran.rules>/Terran/CategoryLimits"
-        ToAdd
-        {
-            Category = "uses_torpedos"
-            Max = 4
         }
     }
 	{
