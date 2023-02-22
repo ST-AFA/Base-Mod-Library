@@ -94,10 +94,19 @@ Actions
 		OnlyIfNotExisting = false
 	}
 
-	//******************** PARTS ********************
-	
 	//******************** TECHS ********************
+	{
+		Action = AddMany
+		AddTo = "<modes/career/techs.rules>/Techs"
+		ManyToAdd = &<shared_techs.rules>/Techs
+	}
 	
+	//******************** PARTS ********************
+	{
+		Action = AddMany
+		AddTo = "<ships/terran/terran.rules>/terran/parts"
+		ManyToAdd = &<shared_parts/shared.rules>/Parts
+	}
 	
 	//******************** SOUNDS ********************
 	{
